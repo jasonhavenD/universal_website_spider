@@ -1,0 +1,468 @@
+2020-10-13 17:09:27.489 | INFO     | __main__:target_func:45 - 1.从Redis读URL
+2020-10-13 17:09:27.493 | INFO     | __main__:get_url_from_redis:154 - 读URL成功！URL = https://yehey.com/tayuman/?share=tumblr
+2020-10-13 17:09:27.496 | INFO     | __main__:target_func:48 - 2.访问URL，url=https://yehey.com/tayuman/?share=tumblr
+2020-10-13 17:09:27.498 | INFO     | __main__:download_and_normalize:107 - url = https://yehey.com/tayuman/?share=tumblr, name = Tumblr
+2020-10-13 17:09:35.633 | INFO     | __main__:get_html_from_url:168 - 下载URL成功！URL = https://yehey.com/tayuman/?share=tumblr
+2020-10-13 17:09:35.635 | INFO     | __main__:target_func:51 - 3.解析URL，url=https://yehey.com/tayuman/?share=tumblr
+2020-10-13 17:09:37.490 | INFO     | __main__:target_func:45 - 1.从Redis读URL
+2020-10-13 17:09:37.494 | INFO     | __main__:get_url_from_redis:154 - 读URL成功！URL = https://yehey.com/dpwh-turns-over-mega-quarantine-facility-in-iligan-city/
+2020-10-13 17:09:37.497 | INFO     | __main__:target_func:48 - 2.访问URL，url=https://yehey.com/dpwh-turns-over-mega-quarantine-facility-in-iligan-city/
+2020-10-13 17:09:37.501 | INFO     | __main__:download_and_normalize:107 - url = https://yehey.com/dpwh-turns-over-mega-quarantine-facility-in-iligan-city/, name = ContinuereadingDPWHTURNSOVERMEGAQUARANTINEFACILITYINILIGANCITY
+2020-10-13 17:09:39.914 | INFO     | __main__:get_html_from_url:168 - 下载URL成功！URL = https://yehey.com/dpwh-turns-over-mega-quarantine-facility-in-iligan-city/
+2020-10-13 17:09:39.917 | INFO     | __main__:target_func:51 - 3.解析URL，url=https://yehey.com/dpwh-turns-over-mega-quarantine-facility-in-iligan-city/
+2020-10-13 17:09:40.455 | INFO     | __main__:target_func:53 - 4.尝试发现相关URL，url=https://yehey.com/tayuman/?share=tumblr，depth=3
+2020-10-13 17:09:40.460 | INFO     | __main__:target_func:55 - 5.保存URL，url=https://yehey.com/tayuman/?share=tumblr
+2020-10-13 17:09:40.466 | INFO     | __main__:save_to_mongodb:335 - 保存结果成功！url = https://yehey.com/tayuman/?share=tumblr
+2020-10-13 17:09:40.471 | INFO     | __main__:get_url_from_redis:154 - 读URL成功！URL = https://yehey.com/category/business/finance/
+2020-10-13 17:09:40.473 | INFO     | __main__:target_func:48 - 2.访问URL，url=https://yehey.com/category/business/finance/
+2020-10-13 17:09:40.477 | INFO     | __main__:download_and_normalize:107 - url = https://yehey.com/category/business/finance/, name = Finance
+2020-10-13 17:09:40.731 | INFO     | __main__:target_func:53 - 4.尝试发现相关URL，url=https://yehey.com/dpwh-turns-over-mega-quarantine-facility-in-iligan-city/，depth=1
+2020-10-13 17:09:40.767 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/about/
+2020-10-13 17:09:40.770 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/business/domain-name/
+2020-10-13 17:09:40.773 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/entertainment/games/
+2020-10-13 17:09:40.776 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/health/
+2020-10-13 17:09:40.779 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/politics/
+2020-10-13 17:09:40.782 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/sports/
+2020-10-13 17:09:40.785 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/technology/
+2020-10-13 17:09:40.789 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/technology/cyber-security/
+2020-10-13 17:09:40.792 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/pressrelease/
+2020-10-13 17:09:40.795 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/52-gamer/
+2020-10-13 17:09:40.800 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/bitcoin/
+2020-10-13 17:09:40.803 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/checkout/
+2020-10-13 17:09:40.807 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/cart/
+2020-10-13 17:09:40.810 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/life/
+2020-10-13 17:09:40.813 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/entrepreneur/
+2020-10-13 17:09:40.816 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/business/
+2020-10-13 17:09:40.822 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/yehey-token/
+2020-10-13 17:09:40.825 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/sports/
+2020-10-13 17:09:40.828 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/52-gamer/
+2020-10-13 17:09:40.832 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/wp-login.php?redirect_to=https%3A%2F%2Fyehey.com%2Fdpwh-turns-over-mega-quarantine-facility-in-iligan-city%2F
+2020-10-13 17:09:40.835 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/author/kingdotnet/
+2020-10-13 17:09:40.839 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/dpwh-turns-over-mega-quarantine-facility-in-iligan-city/?share=facebook
+2020-10-13 17:09:40.843 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/dpwh-turns-over-mega-quarantine-facility-in-iligan-city/?share=email
+2020-10-13 17:09:40.845 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/dpwh-turns-over-mega-quarantine-facility-in-iligan-city/#print
+2020-10-13 17:09:40.848 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/dpwh-turns-over-mega-quarantine-facility-in-iligan-city/?share=reddit
+2020-10-13 17:09:40.854 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/dpwh-turns-over-mega-quarantine-facility-in-iligan-city/?share=telegram
+2020-10-13 17:09:40.856 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/dpwh-turns-over-mega-quarantine-facility-in-iligan-city/?share=skype
+2020-10-13 17:09:40.859 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/blog/
+2020-10-13 17:09:40.863 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/business/marketing/
+2020-10-13 17:09:40.866 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/news/press-release/
+2020-10-13 17:09:40.869 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/tag/business/
+2020-10-13 17:09:40.873 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/tag/covid-19/
+2020-10-13 17:09:40.876 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/tag/iligancity/
+2020-10-13 17:09:40.878 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/tag/quarantine/
+2020-10-13 17:09:40.883 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/author/kingdotnet/
+2020-10-13 17:09:40.887 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/author/kingdotnet/
+2020-10-13 17:09:40.891 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/media-ph/
+2020-10-13 17:09:40.894 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/cavite/
+2020-10-13 17:09:40.896 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/fhm-ph/
+2020-10-13 17:09:40.898 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/kikay/
+2020-10-13 17:09:40.903 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/zambales/
+2020-10-13 17:09:40.906 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/cubao/
+2020-10-13 17:09:40.909 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/topic/best-place-for-buy-a-standing-desk/#post-47247
+2020-10-13 17:09:40.913 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/topic/how-to-verify-your-account/#post-35505
+2020-10-13 17:09:40.916 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/topic/hot-bright-football-news-1-2-neymar-event-barca-dont-pay-for-themselves/#post-27292
+2020-10-13 17:09:40.921 | INFO     | __main__:target_func:55 - 5.保存URL，url=https://yehey.com/dpwh-turns-over-mega-quarantine-facility-in-iligan-city/
+2020-10-13 17:09:40.924 | INFO     | __main__:save_to_mongodb:335 - 保存结果成功！url = https://yehey.com/dpwh-turns-over-mega-quarantine-facility-in-iligan-city/
+2020-10-13 17:09:40.928 | INFO     | __main__:get_url_from_redis:154 - 读URL成功！URL = https://yehey.com/forums/topic/facebook/
+2020-10-13 17:09:40.932 | INFO     | __main__:target_func:48 - 2.访问URL，url=https://yehey.com/forums/topic/facebook/
+2020-10-13 17:09:40.938 | INFO     | __main__:download_and_normalize:107 - url = https://yehey.com/forums/topic/facebook/, name = yearsmonthsago
+2020-10-13 17:09:42.404 | INFO     | __main__:get_html_from_url:168 - 下载URL成功！URL = https://yehey.com/category/business/finance/
+2020-10-13 17:09:42.408 | INFO     | __main__:target_func:51 - 3.解析URL，url=https://yehey.com/category/business/finance/
+2020-10-13 17:09:42.924 | INFO     | __main__:get_html_from_url:168 - 下载URL成功！URL = https://yehey.com/forums/topic/facebook/
+2020-10-13 17:09:42.927 | INFO     | __main__:target_func:51 - 3.解析URL，url=https://yehey.com/forums/topic/facebook/
+2020-10-13 17:09:44.040 | INFO     | __main__:target_func:53 - 4.尝试发现相关URL，url=https://yehey.com/category/business/finance/，depth=4
+2020-10-13 17:09:44.078 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/about/
+2020-10-13 17:09:44.081 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/business/domain-name/
+2020-10-13 17:09:44.084 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/entertainment/games/
+2020-10-13 17:09:44.087 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/health/
+2020-10-13 17:09:44.092 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/politics/
+2020-10-13 17:09:44.094 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/sports/
+2020-10-13 17:09:44.096 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/technology/
+2020-10-13 17:09:44.101 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/technology/cyber-security/
+2020-10-13 17:09:44.105 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/pressrelease/
+2020-10-13 17:09:44.107 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/52-gamer/
+2020-10-13 17:09:44.111 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/bitcoin/
+2020-10-13 17:09:44.113 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/checkout/
+2020-10-13 17:09:44.115 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/cart/
+2020-10-13 17:09:44.117 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/life/
+2020-10-13 17:09:44.122 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/entrepreneur/
+2020-10-13 17:09:44.125 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/business/
+2020-10-13 17:09:44.128 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/yehey-token/
+2020-10-13 17:09:44.132 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/sports/
+2020-10-13 17:09:44.137 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/52-gamer/
+2020-10-13 17:09:44.141 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/wp-login.php?redirect_to=https%3A%2F%2Fyehey.com%2Fcategory%2Fbusiness%2Ffinance%2F
+2020-10-13 17:09:44.144 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/blog/
+2020-10-13 17:09:44.147 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/life/
+2020-10-13 17:09:44.149 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/business/marketing/
+2020-10-13 17:09:44.153 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/travel/maynila/
+2020-10-13 17:09:44.156 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/author/kingdotnet/
+2020-10-13 17:09:44.159 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/business/marketing/
+2020-10-13 17:09:44.162 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/how-to-make-money-using-metatrader-4/
+2020-10-13 17:09:44.165 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/author/kingdotnet/
+2020-10-13 17:09:44.168 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/how-to-make-money-using-metatrader-4/#respond
+2020-10-13 17:09:44.172 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/how-to-make-money-using-metatrader-4/
+2020-10-13 17:09:44.174 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/blog/
+2020-10-13 17:09:44.177 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/best-place-for-business-people-to-invest-in-year-2020/
+2020-10-13 17:09:44.182 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/best-place-for-business-people-to-invest-in-year-2020/
+2020-10-13 17:09:44.184 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/author/kingdotnet/
+2020-10-13 17:09:44.187 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/best-place-for-business-people-to-invest-in-year-2020/#respond
+2020-10-13 17:09:44.191 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/best-place-for-business-people-to-invest-in-year-2020/
+2020-10-13 17:09:44.194 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/advertising/
+2020-10-13 17:09:44.196 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/8-benefits-of-online-studying-for-nurses-wanting-to-progress-in-their-careers/
+2020-10-13 17:09:44.199 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/8-benefits-of-online-studying-for-nurses-wanting-to-progress-in-their-careers/
+2020-10-13 17:09:44.204 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/author/kingdotnet/
+2020-10-13 17:09:44.206 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/8-benefits-of-online-studying-for-nurses-wanting-to-progress-in-their-careers/#respond
+2020-10-13 17:09:44.209 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/8-benefits-of-online-studying-for-nurses-wanting-to-progress-in-their-careers/
+2020-10-13 17:09:44.212 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/advertising/
+2020-10-13 17:09:44.215 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/business/finance/crypto-currency/
+2020-10-13 17:09:44.217 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/business/marketing/
+2020-10-13 17:09:44.223 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/technology/
+2020-10-13 17:09:44.226 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/yehey/
+2020-10-13 17:09:44.228 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/pesos-token/
+2020-10-13 17:09:44.230 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/author/kingdotnet/
+2020-10-13 17:09:44.234 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/pesos-token/#respond
+2020-10-13 17:09:44.237 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/pesos-token/
+2020-10-13 17:09:44.239 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/advertising/
+2020-10-13 17:09:44.244 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/cash/
+2020-10-13 17:09:44.246 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/cash/
+2020-10-13 17:09:44.248 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/author/kingdotnet/
+2020-10-13 17:09:44.251 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/cash/#comments
+2020-10-13 17:09:44.255 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/cash/
+2020-10-13 17:09:44.257 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/advertising/
+2020-10-13 17:09:44.260 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/business/finance/crypto-currency/
+2020-10-13 17:09:44.264 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/yehey/
+2020-10-13 17:09:44.267 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/author/kingdotnet/
+2020-10-13 17:09:44.270 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/token/#comments
+2020-10-13 17:09:44.274 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/advertising/
+2020-10-13 17:09:44.276 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/4-tips-for-starting-your-business-in-the-right-way/
+2020-10-13 17:09:44.279 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/author/kingdotnet/
+2020-10-13 17:09:44.283 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/4-tips-for-starting-your-business-in-the-right-way/#respond
+2020-10-13 17:09:44.286 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/4-tips-for-starting-your-business-in-the-right-way/
+2020-10-13 17:09:44.289 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/advertising/
+2020-10-13 17:09:44.294 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/technology/
+2020-10-13 17:09:44.297 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/how-to-save-time-and-money-in-business/
+2020-10-13 17:09:44.299 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/author/kingdotnet/
+2020-10-13 17:09:44.303 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/how-to-save-time-and-money-in-business/#respond
+2020-10-13 17:09:44.307 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/how-to-save-time-and-money-in-business/
+2020-10-13 17:09:44.310 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/advertising/
+2020-10-13 17:09:44.313 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/exploring-the-reasons-to-acquire-a-small-business-loan/
+2020-10-13 17:09:44.316 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/author/kingdotnet/
+2020-10-13 17:09:44.319 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/exploring-the-reasons-to-acquire-a-small-business-loan/#respond
+2020-10-13 17:09:44.322 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/exploring-the-reasons-to-acquire-a-small-business-loan/
+2020-10-13 17:09:44.326 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/business/finance/page/2/
+2020-10-13 17:09:44.329 | INFO     | __main__:target_func:55 - 5.保存URL，url=https://yehey.com/category/business/finance/
+2020-10-13 17:09:44.332 | INFO     | __main__:save_to_mongodb:335 - 保存结果成功！url = https://yehey.com/category/business/finance/
+2020-10-13 17:09:44.338 | INFO     | __main__:get_url_from_redis:154 - 读URL成功！URL = https://yehey.com/members/maithanhtam200216/activity/
+2020-10-13 17:09:44.340 | INFO     | __main__:target_func:48 - 2.访问URL，url=https://yehey.com/members/maithanhtam200216/activity/
+2020-10-13 17:09:44.342 | INFO     | __main__:download_and_normalize:107 - url = https://yehey.com/members/maithanhtam200216/activity/, name = Personal
+2020-10-13 17:09:44.935 | INFO     | __main__:target_func:53 - 4.尝试发现相关URL，url=https://yehey.com/forums/topic/facebook/，depth=3
+2020-10-13 17:09:44.968 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/about/
+2020-10-13 17:09:44.972 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/business/domain-name/
+2020-10-13 17:09:44.976 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/entertainment/games/
+2020-10-13 17:09:44.980 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/health/
+2020-10-13 17:09:44.982 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/politics/
+2020-10-13 17:09:44.985 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/sports/
+2020-10-13 17:09:44.988 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/technology/
+2020-10-13 17:09:44.991 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/technology/cyber-security/
+2020-10-13 17:09:44.995 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/pressrelease/
+2020-10-13 17:09:44.997 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/52-gamer/
+2020-10-13 17:09:45.002 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/bitcoin/
+2020-10-13 17:09:45.005 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/checkout/
+2020-10-13 17:09:45.007 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/cart/
+2020-10-13 17:09:45.011 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/life/
+2020-10-13 17:09:45.014 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/entrepreneur/
+2020-10-13 17:09:45.016 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/business/
+2020-10-13 17:09:45.021 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/yehey-token/
+2020-10-13 17:09:45.024 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/sports/
+2020-10-13 17:09:45.026 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/52-gamer/
+2020-10-13 17:09:45.030 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/wp-login.php?redirect_to=https%3A%2F%2Fyehey.com%2Fforums%2Ftopic%2Ffacebook%2F
+2020-10-13 17:09:45.034 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/members/mjbohol1997/
+2020-10-13 17:09:45.037 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/members/mjbohol1997/
+2020-10-13 17:09:45.041 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/author/mjbohol1997/
+2020-10-13 17:09:45.043 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/author/mjbohol1997/
+2020-10-13 17:09:45.045 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/topic/snapchat-ceo-said-this-app-is-only-for-rich-people/
+2020-10-13 17:09:45.048 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/cavite/
+2020-10-13 17:09:45.051 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/fhm-ph/
+2020-10-13 17:09:45.055 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/kikay/
+2020-10-13 17:09:45.057 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/zambales/
+2020-10-13 17:09:45.062 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/cubao/
+2020-10-13 17:09:45.064 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/topic/best-place-for-buy-a-standing-desk/#post-47247
+2020-10-13 17:09:45.067 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/topic/how-to-verify-your-account/#post-35505
+2020-10-13 17:09:45.074 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/topic/hot-bright-football-news-1-2-neymar-event-barca-dont-pay-for-themselves/#post-27292
+2020-10-13 17:09:45.077 | INFO     | __main__:target_func:55 - 5.保存URL，url=https://yehey.com/forums/topic/facebook/
+2020-10-13 17:09:45.080 | INFO     | __main__:save_to_mongodb:335 - 保存结果成功！url = https://yehey.com/forums/topic/facebook/
+2020-10-13 17:09:45.085 | INFO     | __main__:get_url_from_redis:154 - 读URL成功！URL = https://yehey.com/zambales/
+2020-10-13 17:09:45.087 | INFO     | __main__:target_func:48 - 2.访问URL，url=https://yehey.com/zambales/
+2020-10-13 17:09:45.089 | INFO     | __main__:download_and_normalize:107 - url = https://yehey.com/zambales/, name = Zambalescomuntaintedforestlandscape
+2020-10-13 17:09:47.491 | INFO     | __main__:target_func:45 - 1.从Redis读URL
+2020-10-13 17:09:47.495 | INFO     | __main__:get_url_from_redis:154 - 读URL成功！URL = https://yehey.com/tag/zamboanga/
+2020-10-13 17:09:47.498 | INFO     | __main__:target_func:48 - 2.访问URL，url=https://yehey.com/tag/zamboanga/
+2020-10-13 17:09:47.499 | INFO     | __main__:download_and_normalize:107 - url = https://yehey.com/tag/zamboanga/, name = Zamboanga
+2020-10-13 17:09:47.808 | INFO     | __main__:get_html_from_url:168 - 下载URL成功！URL = https://yehey.com/zambales/
+2020-10-13 17:09:47.811 | INFO     | __main__:target_func:51 - 3.解析URL，url=https://yehey.com/zambales/
+2020-10-13 17:09:47.868 | INFO     | __main__:get_html_from_url:168 - 下载URL成功！URL = https://yehey.com/members/maithanhtam200216/activity/
+2020-10-13 17:09:47.871 | INFO     | __main__:target_func:51 - 3.解析URL，url=https://yehey.com/members/maithanhtam200216/activity/
+2020-10-13 17:09:49.233 | INFO     | __main__:get_html_from_url:168 - 下载URL成功！URL = https://yehey.com/tag/zamboanga/
+2020-10-13 17:09:49.235 | INFO     | __main__:target_func:51 - 3.解析URL，url=https://yehey.com/tag/zamboanga/
+2020-10-13 17:09:50.034 | INFO     | __main__:target_func:53 - 4.尝试发现相关URL，url=https://yehey.com/zambales/，depth=4
+2020-10-13 17:09:50.085 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/about/
+2020-10-13 17:09:50.088 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/business/domain-name/
+2020-10-13 17:09:50.091 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/entertainment/games/
+2020-10-13 17:09:50.093 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/health/
+2020-10-13 17:09:50.097 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/politics/
+2020-10-13 17:09:50.100 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/sports/
+2020-10-13 17:09:50.104 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/technology/
+2020-10-13 17:09:50.108 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/technology/cyber-security/
+2020-10-13 17:09:50.110 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/pressrelease/
+2020-10-13 17:09:50.113 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/52-gamer/
+2020-10-13 17:09:50.117 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/bitcoin/
+2020-10-13 17:09:50.120 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/checkout/
+2020-10-13 17:09:50.123 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/cart/
+2020-10-13 17:09:50.126 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/life/
+2020-10-13 17:09:50.128 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/entrepreneur/
+2020-10-13 17:09:50.130 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/business/
+2020-10-13 17:09:50.134 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/yehey-token/
+2020-10-13 17:09:50.140 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/sports/
+2020-10-13 17:09:50.143 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/52-gamer/
+2020-10-13 17:09:50.146 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/wp-login.php?redirect_to=https%3A%2F%2Fyehey.com%2Fzambales%2F
+2020-10-13 17:09:50.150 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/author/kingdotnet/
+2020-10-13 17:09:50.152 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/zambales/?share=twitter
+2020-10-13 17:09:50.155 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/zambales/?share=facebook
+2020-10-13 17:09:50.159 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/zambales/?share=linkedin
+2020-10-13 17:09:50.162 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/zambales/?share=email
+2020-10-13 17:09:50.165 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/zambales/#print
+2020-10-13 17:09:50.167 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/zambales/?share=reddit
+2020-10-13 17:09:50.171 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/zambales/?share=tumblr
+2020-10-13 17:09:50.174 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/zambales/?share=pinterest
+2020-10-13 17:09:50.176 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/zambales/?share=pocket
+2020-10-13 17:09:50.180 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/zambales/?share=telegram
+2020-10-13 17:09:50.182 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/zambales/?share=jetpack-whatsapp
+2020-10-13 17:09:50.185 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/zambales/?share=skype
+2020-10-13 17:09:50.190 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/advertising/
+2020-10-13 17:09:50.193 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/tag/business/
+2020-10-13 17:09:50.195 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/tag/marketing/
+2020-10-13 17:09:50.203 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/author/kingdotnet/
+2020-10-13 17:09:50.207 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/author/kingdotnet/
+2020-10-13 17:09:50.209 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/how-to-make-money-using-metatrader-4/
+2020-10-13 17:09:50.213 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/cavite/
+2020-10-13 17:09:50.215 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/fhm-ph/
+2020-10-13 17:09:50.217 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/kikay/
+2020-10-13 17:09:50.220 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/cubao/
+2020-10-13 17:09:50.224 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/topic/best-place-for-buy-a-standing-desk/#post-47247
+2020-10-13 17:09:50.227 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/topic/how-to-verify-your-account/#post-35505
+2020-10-13 17:09:50.230 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/topic/hot-bright-football-news-1-2-neymar-event-barca-dont-pay-for-themselves/#post-27292
+2020-10-13 17:09:50.233 | INFO     | __main__:target_func:55 - 5.保存URL，url=https://yehey.com/zambales/
+2020-10-13 17:09:50.236 | INFO     | __main__:save_to_mongodb:335 - 保存结果成功！url = https://yehey.com/zambales/
+2020-10-13 17:09:50.240 | INFO     | __main__:get_url_from_redis:154 - 读URL成功！URL = https://yehey.com/tag/travel/
+2020-10-13 17:09:50.243 | INFO     | __main__:target_func:48 - 2.访问URL，url=https://yehey.com/tag/travel/
+2020-10-13 17:09:50.245 | INFO     | __main__:download_and_normalize:107 - url = https://yehey.com/tag/travel/, name = Travel
+2020-10-13 17:09:50.787 | INFO     | __main__:target_func:53 - 4.尝试发现相关URL，url=https://yehey.com/tag/zamboanga/，depth=3
+2020-10-13 17:09:50.812 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/about/
+2020-10-13 17:09:50.815 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/business/domain-name/
+2020-10-13 17:09:50.817 | INFO     | __main__:target_func:53 - 4.尝试发现相关URL，url=https://yehey.com/members/maithanhtam200216/activity/，depth=3
+2020-10-13 17:09:50.820 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/entertainment/games/
+2020-10-13 17:09:50.828 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/health/
+2020-10-13 17:09:50.840 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/politics/
+2020-10-13 17:09:50.847 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/sports/
+2020-10-13 17:09:50.857 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/technology/
+2020-10-13 17:09:50.863 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/technology/cyber-security/
+2020-10-13 17:09:50.875 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/pressrelease/
+2020-10-13 17:09:50.875 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/about/
+2020-10-13 17:09:50.878 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/52-gamer/
+2020-10-13 17:09:50.881 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/business/domain-name/
+2020-10-13 17:09:50.884 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/bitcoin/
+2020-10-13 17:09:50.887 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/entertainment/games/
+2020-10-13 17:09:50.889 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/checkout/
+2020-10-13 17:09:50.893 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/health/
+2020-10-13 17:09:50.895 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/cart/
+2020-10-13 17:09:50.897 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/politics/
+2020-10-13 17:09:50.899 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/life/
+2020-10-13 17:09:50.904 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/sports/
+2020-10-13 17:09:50.906 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/entrepreneur/
+2020-10-13 17:09:50.908 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/technology/
+2020-10-13 17:09:50.910 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/business/
+2020-10-13 17:09:50.914 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/technology/cyber-security/
+2020-10-13 17:09:50.917 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/yehey-token/
+2020-10-13 17:09:50.919 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/pressrelease/
+2020-10-13 17:09:50.923 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/sports/
+2020-10-13 17:09:50.925 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/52-gamer/
+2020-10-13 17:09:50.928 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/52-gamer/
+2020-10-13 17:09:50.930 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/bitcoin/
+2020-10-13 17:09:50.934 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/wp-login.php?redirect_to=https%3A%2F%2Fyehey.com%2Ftag%2Fzamboanga%2F
+2020-10-13 17:09:50.936 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/checkout/
+2020-10-13 17:09:50.939 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/blog/
+2020-10-13 17:09:50.943 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/cart/
+2020-10-13 17:09:50.946 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/business/marketing/
+2020-10-13 17:09:50.948 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/life/
+2020-10-13 17:09:50.950 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/news/press-release/
+2020-10-13 17:09:50.955 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/entrepreneur/
+2020-10-13 17:09:50.958 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/author/kingdotnet/
+2020-10-13 17:09:50.960 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/business/
+2020-10-13 17:09:50.963 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/road-restoration-works-in-zamboanga-sibugay-completed/#respond
+2020-10-13 17:09:50.965 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/yehey-token/
+2020-10-13 17:09:50.968 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/news/press-release/
+2020-10-13 17:09:50.973 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/sports/
+2020-10-13 17:09:50.976 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/author/kingdotnet/
+2020-10-13 17:09:50.978 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/52-gamer/
+2020-10-13 17:09:50.981 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/news/press-release/
+2020-10-13 17:09:50.984 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/wp-login.php?redirect_to=https%3A%2F%2Fyehey.com%2Fmembers%2Fmaithanhtam200216%2F
+2020-10-13 17:09:50.987 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/dpwh-in-full-swing-implementation-of-adb-assisted-improving-growth-corridors-road-projects-in-mindanao/
+2020-10-13 17:09:50.989 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/members/maithanhtam200216/profile/
+2020-10-13 17:09:50.993 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/author/kingdotnet/
+2020-10-13 17:09:50.996 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/members/maithanhtam200216/friends/
+2020-10-13 17:09:50.998 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/dpwh-in-full-swing-implementation-of-adb-assisted-improving-growth-corridors-road-projects-in-mindanao/
+2020-10-13 17:09:51.002 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/members/maithanhtam200216/activity/mentions/
+2020-10-13 17:09:51.005 | INFO     | __main__:target_func:55 - 5.保存URL，url=https://yehey.com/tag/zamboanga/
+2020-10-13 17:09:51.008 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/members/maithanhtam200216/activity/favorites/
+2020-10-13 17:09:51.010 | INFO     | __main__:save_to_mongodb:335 - 保存结果成功！url = https://yehey.com/tag/zamboanga/
+2020-10-13 17:09:51.012 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/members/maithanhtam200216/activity/groups/
+2020-10-13 17:09:51.017 | INFO     | __main__:get_url_from_redis:154 - 读URL成功！URL = https://yehey.com/members/maithanhtam200216/activity/mentions/
+2020-10-13 17:09:51.020 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/topic/best-place-for-buy-a-standing-desk/#post-47247
+2020-10-13 17:09:51.022 | INFO     | __main__:target_func:48 - 2.访问URL，url=https://yehey.com/members/maithanhtam200216/activity/mentions/
+2020-10-13 17:09:51.025 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/cavite/
+2020-10-13 17:09:51.027 | INFO     | __main__:download_and_normalize:107 - url = https://yehey.com/members/maithanhtam200216/activity/mentions/, name = Mentions
+2020-10-13 17:09:51.030 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/fhm-ph/
+2020-10-13 17:09:51.058 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/kikay/
+2020-10-13 17:09:51.061 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/cubao/
+2020-10-13 17:09:51.063 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/topic/best-place-for-buy-a-standing-desk/#post-47247
+2020-10-13 17:09:51.067 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/topic/how-to-verify-your-account/#post-35505
+2020-10-13 17:09:51.071 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/topic/hot-bright-football-news-1-2-neymar-event-barca-dont-pay-for-themselves/#post-27292
+2020-10-13 17:09:51.073 | INFO     | __main__:target_func:55 - 5.保存URL，url=https://yehey.com/members/maithanhtam200216/activity/
+2020-10-13 17:09:51.078 | INFO     | __main__:save_to_mongodb:335 - 保存结果成功！url = https://yehey.com/members/maithanhtam200216/activity/
+2020-10-13 17:09:51.082 | INFO     | __main__:get_url_from_redis:154 - 读URL成功！URL = https://yehey.com/taste-the-world-in-one-basket/?share=twitter
+2020-10-13 17:09:51.084 | INFO     | __main__:target_func:48 - 2.访问URL，url=https://yehey.com/taste-the-world-in-one-basket/?share=twitter
+2020-10-13 17:09:51.087 | INFO     | __main__:download_and_normalize:107 - url = https://yehey.com/taste-the-world-in-one-basket/?share=twitter, name = Twitter
+2020-10-13 17:09:52.014 | INFO     | __main__:get_html_from_url:168 - 下载URL成功！URL = https://yehey.com/tag/travel/
+2020-10-13 17:09:52.016 | INFO     | __main__:target_func:51 - 3.解析URL，url=https://yehey.com/tag/travel/
+2020-10-13 17:09:52.789 | INFO     | __main__:get_html_from_url:168 - 下载URL成功！URL = https://yehey.com/members/maithanhtam200216/activity/mentions/
+2020-10-13 17:09:52.940 | INFO     | __main__:target_func:51 - 3.解析URL，url=https://yehey.com/members/maithanhtam200216/activity/mentions/
+2020-10-13 17:09:53.254 | INFO     | __main__:get_html_from_url:168 - 下载URL成功！URL = https://yehey.com/taste-the-world-in-one-basket/?share=twitter
+2020-10-13 17:09:53.257 | INFO     | __main__:target_func:51 - 3.解析URL，url=https://yehey.com/taste-the-world-in-one-basket/?share=twitter
+2020-10-13 17:09:53.784 | INFO     | __main__:target_func:53 - 4.尝试发现相关URL，url=https://yehey.com/tag/travel/，depth=3
+2020-10-13 17:09:53.820 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/about/
+2020-10-13 17:09:53.823 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/business/domain-name/
+2020-10-13 17:09:53.826 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/entertainment/games/
+2020-10-13 17:09:53.829 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/health/
+2020-10-13 17:09:53.832 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/politics/
+2020-10-13 17:09:53.835 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/sports/
+2020-10-13 17:09:53.838 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/technology/
+2020-10-13 17:09:53.842 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/technology/cyber-security/
+2020-10-13 17:09:53.845 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/pressrelease/
+2020-10-13 17:09:53.848 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/52-gamer/
+2020-10-13 17:09:53.852 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/bitcoin/
+2020-10-13 17:09:53.855 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/checkout/
+2020-10-13 17:09:53.858 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/cart/
+2020-10-13 17:09:53.861 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/life/
+2020-10-13 17:09:53.864 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/entrepreneur/
+2020-10-13 17:09:53.866 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/business/
+2020-10-13 17:09:53.869 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/yehey-token/
+2020-10-13 17:09:53.874 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/sports/
+2020-10-13 17:09:53.876 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/52-gamer/
+2020-10-13 17:09:53.880 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/wp-login.php?redirect_to=https%3A%2F%2Fyehey.com%2Ftag%2Ftravel%2F
+2020-10-13 17:09:53.884 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/advertising/
+2020-10-13 17:09:53.888 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/blog/
+2020-10-13 17:09:53.893 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/business/marketing/
+2020-10-13 17:09:53.896 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/business/realestate/
+2020-10-13 17:09:53.899 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/author/kingdotnet/
+2020-10-13 17:09:53.905 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/advertising/
+2020-10-13 17:09:53.908 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/author/kingdotnet/
+2020-10-13 17:09:53.913 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/advertising/
+2020-10-13 17:09:53.916 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/business/marketing/
+2020-10-13 17:09:53.920 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/puertoprincesa-com-one-of-seven-wonders-of-nature/
+2020-10-13 17:09:53.924 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/author/kingdotnet/
+2020-10-13 17:09:53.927 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/puertoprincesa-com-one-of-seven-wonders-of-nature/#respond
+2020-10-13 17:09:53.930 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/puertoprincesa-com-one-of-seven-wonders-of-nature/
+2020-10-13 17:09:53.935 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/advertising/
+2020-10-13 17:09:53.939 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/travel/davao/
+2020-10-13 17:09:53.942 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/dpwh-opens-panabo-flyover-in-davao-del-norte/
+2020-10-13 17:09:53.947 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/author/kingdotnet/
+2020-10-13 17:09:53.950 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/dpwh-opens-panabo-flyover-in-davao-del-norte/#respond
+2020-10-13 17:09:53.955 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/dpwh-opens-panabo-flyover-in-davao-del-norte/
+2020-10-13 17:09:53.958 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/blog/
+2020-10-13 17:09:53.960 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/life/
+2020-10-13 17:09:53.965 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/travel/palawan/
+2020-10-13 17:09:53.968 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/palawan/
+2020-10-13 17:09:53.971 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/author/kingdotnet/
+2020-10-13 17:09:53.976 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/palawan/#respond
+2020-10-13 17:09:53.978 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/palawan/
+2020-10-13 17:09:53.981 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/first-time-skiers-how-to-do-it-safely/
+2020-10-13 17:09:53.986 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/author/kingdotnet/
+2020-10-13 17:09:53.990 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/first-time-skiers-how-to-do-it-safely/#comments
+2020-10-13 17:09:53.994 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/first-time-skiers-how-to-do-it-safely/
+2020-10-13 17:09:53.997 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/mavulis-the-last-island-of-the-philippines/
+2020-10-13 17:09:54.000 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/author/kingdotnet/
+2020-10-13 17:09:54.006 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/mavulis-the-last-island-of-the-philippines/#comments
+2020-10-13 17:09:54.009 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/mavulis-the-last-island-of-the-philippines/
+2020-10-13 17:09:54.012 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/travel/bicol/
+2020-10-13 17:09:54.016 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/life/
+2020-10-13 17:09:54.019 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/entertainment/video/
+2020-10-13 17:09:54.022 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/why-are-200-deers-here-in-bicol/
+2020-10-13 17:09:54.027 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/why-are-200-deers-here-in-bicol/
+2020-10-13 17:09:54.031 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/author/kingdotnet/
+2020-10-13 17:09:54.033 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/why-are-200-deers-here-in-bicol/#respond
+2020-10-13 17:09:54.038 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/why-are-200-deers-here-in-bicol/
+2020-10-13 17:09:54.041 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/advertising/
+2020-10-13 17:09:54.043 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/food/
+2020-10-13 17:09:54.046 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/7-romantic-things-to-do-in-chicago/
+2020-10-13 17:09:54.049 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/author/kingdotnet/
+2020-10-13 17:09:54.052 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/7-romantic-things-to-do-in-chicago/#respond
+2020-10-13 17:09:54.054 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/7-romantic-things-to-do-in-chicago/
+2020-10-13 17:09:54.059 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/advertising/
+2020-10-13 17:09:54.061 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/top-ten-things-to-do-in-whistler/
+2020-10-13 17:09:54.064 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/top-ten-things-to-do-in-whistler/
+2020-10-13 17:09:54.068 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/author/kingdotnet/
+2020-10-13 17:09:54.072 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/top-ten-things-to-do-in-whistler/#comments
+2020-10-13 17:09:54.074 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/top-ten-things-to-do-in-whistler/
+2020-10-13 17:09:54.078 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/tag/travel/page/2/
+2020-10-13 17:09:54.080 | INFO     | __main__:target_func:55 - 5.保存URL，url=https://yehey.com/tag/travel/
+2020-10-13 17:09:54.082 | INFO     | __main__:save_to_mongodb:335 - 保存结果成功！url = https://yehey.com/tag/travel/
+2020-10-13 17:09:54.086 | INFO     | __main__:get_url_from_redis:154 - 读URL成功！URL = https://yehey.com/zambales/?share=jetpack-whatsapp
+2020-10-13 17:09:54.091 | INFO     | __main__:target_func:48 - 2.访问URL，url=https://yehey.com/zambales/?share=jetpack-whatsapp
+2020-10-13 17:09:54.093 | INFO     | __main__:download_and_normalize:107 - url = https://yehey.com/zambales/?share=jetpack-whatsapp, name = WhatsApp
+2020-10-13 17:09:55.002 | INFO     | __main__:target_func:53 - 4.尝试发现相关URL，url=https://yehey.com/members/maithanhtam200216/activity/mentions/，depth=4
+2020-10-13 17:09:55.039 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/about/
+2020-10-13 17:09:55.042 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/business/domain-name/
+2020-10-13 17:09:55.045 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/entertainment/games/
+2020-10-13 17:09:55.048 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/health/
+2020-10-13 17:09:55.051 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/politics/
+2020-10-13 17:09:55.054 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/sports/
+2020-10-13 17:09:55.057 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/technology/
+2020-10-13 17:09:55.061 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/category/technology/cyber-security/
+2020-10-13 17:09:55.064 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/pressrelease/
+2020-10-13 17:09:55.066 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/52-gamer/
+2020-10-13 17:09:55.071 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/bitcoin/
+2020-10-13 17:09:55.074 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/checkout/
+2020-10-13 17:09:55.076 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/cart/
+2020-10-13 17:09:55.078 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/life/
+2020-10-13 17:09:55.081 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/entrepreneur/
+2020-10-13 17:09:55.084 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/business/
+2020-10-13 17:09:55.087 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/yehey-token/
+2020-10-13 17:09:55.092 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/sports/
+2020-10-13 17:09:55.094 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/forum/52-gamer/
+2020-10-13 17:09:55.097 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/wp-login.php?redirect_to=https%3A%2F%2Fyehey.com%2Fmembers%2Fmaithanhtam200216%2Factivity%2Fmentions%2F
+2020-10-13 17:09:55.101 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/members/maithanhtam200216/profile/
+2020-10-13 17:09:55.104 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/members/maithanhtam200216/friends/
+2020-10-13 17:09:55.107 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/members/maithanhtam200216/activity/favorites/
+2020-10-13 17:09:55.111 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/members/maithanhtam200216/activity/groups/
+2020-10-13 17:09:55.113 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/cavite/
+2020-10-13 17:09:55.116 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/fhm-ph/
+2020-10-13 17:09:55.118 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/kikay/
+2020-10-13 17:09:55.123 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/cubao/
+2020-10-13 17:09:55.125 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/topic/best-place-for-buy-a-standing-desk/#post-47247
+2020-10-13 17:09:55.127 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/topic/how-to-verify-your-account/#post-35505
+2020-10-13 17:09:55.131 | INFO     | __main__:get_links_from_html:248 - 添加新URL成功！url = https://yehey.com/forums/topic/hot-bright-football-news-1-2-neymar-event-barca-dont-pay-for-themselves/#post-27292
+2020-10-13 17:09:55.134 | INFO     | __main__:target_func:55 - 5.保存URL，url=https://yehey.com/members/maithanhtam200216/activity/mentions/
+2020-10-13 17:09:55.137 | INFO     | __main__:save_to_mongodb:335 - 保存结果成功！url = https://yehey.com/members/maithanhtam200216/activity/mentions/
+2020-10-13 17:09:55.144 | INFO     | __main__:get_url_from_redis:154 - 读URL成功！URL = https://yehey.com/road-restoration-works-in-zamboanga-sibugay-completed/?share=twitter
+2020-10-13 17:09:55.147 | INFO     | __main__:target_func:48 - 2.访问URL，url=https://yehey.com/road-restoration-works-in-zamboanga-sibugay-completed/?share=twitter
+2020-10-13 17:09:55.150 | INFO     | __main__:download_and_normalize:107 - url = https://yehey.com/road-restoration-works-in-zamboanga-sibugay-completed/?share=twitter, name = Twitter
+2020-10-13 17:09:55.459 | INFO     | __main__:target_func:53 - 4.尝试发现相关URL，url=https://yehey.com/taste-the-world-in-one-basket/?share=twitter，depth=3
+2020-10-13 17:09:55.467 | INFO     | __main__:target_func:55 - 5.保存URL，url=https://yehey.com/taste-the-world-in-one-basket/?share=twitter
+2020-10-13 17:09:55.472 | INFO     | __main__:save_to_mongodb:335 - 保存结果成功！url = https://yehey.com/taste-the-world-in-one-basket/?share=twitter
+2020-10-13 17:09:55.478 | INFO     | __main__:get_url_from_redis:154 - 读URL成功！URL = https://yehey.com/taste-the-world-in-one-basket/
+2020-10-13 17:09:55.482 | INFO     | __main__:target_func:48 - 2.访问URL，url=https://yehey.com/taste-the-world-in-one-basket/
+2020-10-13 17:09:55.485 | INFO     | __main__:download_and_normalize:107 - url = https://yehey.com/taste-the-world-in-one-basket/, name = ContinuereadingTastetheWorldinoneBasket
+2020-10-13 17:09:56.397 | INFO     | __main__:get_html_from_url:168 - 下载URL成功！URL = https://yehey.com/zambales/?share=jetpack-whatsapp
+2020-10-13 17:09:56.400 | INFO     | __main__:target_func:51 - 3.解析URL，url=https://yehey.com/zambales/?share=jetpack-whatsapp
+2020-10-13 17:09:57.684 | INFO     | __main__:get_html_from_url:168 - 下载URL成功！URL = https://yehey.com/road-restoration-works-in-zamboanga-sibugay-completed/?share=twitter
